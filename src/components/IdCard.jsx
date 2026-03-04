@@ -235,7 +235,7 @@ function IdCard({ name, role, department, avatar, id }) {
                 letterSpacing: "1px",
               }}
             >
-              VALID 2025
+              VALID 2026
             </div>
           </div>
         </div>
