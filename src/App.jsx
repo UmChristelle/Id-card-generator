@@ -64,7 +64,7 @@ function App() {
               borderRadius: "20px",
             }}
           >
-            Staff Directory 2025
+            Staff Directory 2026
           </div>
           <h1
             style={{
