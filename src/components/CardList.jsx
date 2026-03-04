@@ -1,14 +1,9 @@
 import IdCard from "./IdCard";
-import people from "./data/people";
+import people from "../data/people";
 
 function CardList() {
   return (
-    <div style={{
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "center",
-      gap: "32px",
-    }}>
+    <div className="flex flex-wrap justify-center gap-8">
       {people.map((person) => (
         <IdCard
           key={person.id}
